@@ -44,7 +44,7 @@ public class LogicServlet extends HttpServlet {
 //me.14.1
         // Отримуємо порожню ячейку поля
         int emptyFieldIndex = field.getEmptyFieldIndex();
-
+        // Якщо така ячейка є
         if (emptyFieldIndex >= 0) {
             field.getField().put(emptyFieldIndex, Sign.NOUGHT);
 //mb.14.2
@@ -54,7 +54,21 @@ public class LogicServlet extends HttpServlet {
             }
 //me.14.2
         }
+        // Якщо порожньої ячейки нема і ніхто не переміг – це нічия
+        else {
+            // Додаємо до сесії прапорець, який сигналізує, що відбулася нічия
+            currentSession.setAttribute("draw", true);
 
+            // Рахуємо список значків
+            List<Sign> data = field.getFieldData();
+
+            // Оновлюємо цей список у сесії
+            currentSession.setAttribute("data", data);
+
+            // Шлемо редирект
+            resp.sendRedirect("/index.jsp");
+            return;
+        }
         // Рахуємо список значків
         List<Sign> data = field.getFieldData();
 
