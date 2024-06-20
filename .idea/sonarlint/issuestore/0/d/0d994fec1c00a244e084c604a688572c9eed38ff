@@ -1,0 +1,16 @@
+
+ˆ	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(Öïö«8à›‡¤ƒ2J$6ba5af73-1228-4904-bc14-9c427ad444f3
+“
+java:S1192 "KDefine a constant instead of duplicating this literal "/index.jsp" 4 times.(–ã»½ÿÿÿÿÿ8Ú®¯’ƒ2J$5ee1d7af-534e-4400-b6fc-23681ccc4d0e
+¤
+java:S1989!"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(òø½8Ù»­’ƒ2J$8f05ce10-b186-4027-a867-c26a0775d8d4
+—
+java:S1989)"OHandle the following exception that could be thrown by "checkWin": IOException.(¦ª©±ÿÿÿÿÿ8¥´ÿ£ƒ2J$c4b2b8de-463a-475f-9421-b03705dcf750
+—
+java:S19894"OHandle the following exception that could be thrown by "checkWin": IOException.(¦ª©±ÿÿÿÿÿ8¿’„¤ƒ2J$95496f76-6c6d-425e-b465-aa2db629626d
+–
+java:S1989E"SHandle the following exception that could be thrown by "sendRedirect": IOException.(¾èäÔ8é›‡¤ƒ2J$81a390b9-b566-4b5f-91ea-25266122bb91
+ƒ
+java:S2441M";Make "Field" serializable or don't store it in the session.(ĞÏÇäşÿÿÿÿ8é›‡¤ƒ2J$005e8d43-cf6a-4944-aff7-6d140f19bdc9
+p
+java:S1989O"SHandle the following exception that could be thrown by "sendRedirect": IOException.(¾èäÔ8½šœ²ƒ2

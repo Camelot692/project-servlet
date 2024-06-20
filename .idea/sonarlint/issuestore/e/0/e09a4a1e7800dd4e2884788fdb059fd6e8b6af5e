@@ -1,0 +1,9 @@
+
+€
+java:S1854"=Remove this useless assignment to local variable "fieldData".(ÏºëŸ8Êàû‘ƒ2J$d9f93858-06ca-462f-a8f9-3db431328588
+q
+java:S1481".Remove this unused "fieldData" local variable.(ÏºëŸ8Õàû‘ƒ2J$ab21360c-5e0f-4a2b-a5e6-0ffe9679da7e
+ƒ
+java:S2441";Make "Field" serializable or don't store it in the session.(ÐÏÇäþÿÿÿÿ8×àû‘ƒ2J$3b935e92-3d53-40aa-b541-88e1f7a09120
+¤
+java:S1989!"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.( ¿§˜8Ûàû‘ƒ2J$6483a34e-c66f-4c7c-a6c3-850673abeeb3

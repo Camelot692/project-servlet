@@ -1,0 +1,5 @@
+
+U
+java:S1700	"Rename field "field"(อ‘็๛ÿÿÿÿJ$21e2500b-e499-44e4-9958-1fbf697d03b4
+ถ
+java:S6204'"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ชจนJ$99ccfea1-057c-48a2-a294-b72ba0e83dd8
